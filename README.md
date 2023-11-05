@@ -3,11 +3,11 @@
 ## 1. Viết chương trình cài đặt giải thuật tìm kiếm tuyến tính (linear search):
 1. Không sử dụng thư viện STL
 1. Sử dụng thư viện STL
-    Tham khảo : https://cplusplus.com/reference/algorithm/find/
+    Tham khảo : [cplusplus.com](https://cplusplus.com/reference/algorithm/find/)
 ## 2. Viết chương trình cài đặt giải thuật tìm kiếm nhị phân (binary search) :
 1. Không sử dụng thư viện STL
 1. Sử dụng thư viện STL
-    Tham khảo: https://cplusplus.com/reference/algorithm/binary_search/
+    Tham khảo: [cplusplus.com](https://cplusplus.com/reference/algorithm/binary_search/)
 ## 3. Binary Search
 Cho một dãy số nguyên a gồm N phần tử a_{1}, a_{2}, … , a_{N}.
 Có Q truy vấn, mỗi truy vấn cho một số nguyên x. Bạn hãy trả lời xem số nguyên x này có trong dãy a hay không?
