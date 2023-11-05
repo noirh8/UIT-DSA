@@ -23,42 +23,13 @@ Ví dụ:
 | 7 5 </br> 9 10 12 -1 0 1 7 </br> 3 </br> 2 </br> 1 </br> 9 </br> 7 | </br></br> NO </br> NO </br> YES </br> YES </br> YES|
 
 ## 4. Tập Điểm
-
 Cho một tập N điểm (x,y) trên mặt phẳng Oxy. Bạn hãy sắp xếp và in ra các điểm tăng dần theo x, nếu x bằng nhau thì sắp xếp các điểm giảm dần theo y.
-
- Input: 
-
-Dòng đầu tiên chứa số nguyên N ( 1 <= N <= 10^6) là số lượng điểm trên mặt phẳng.
-
-N dòng tiếp theo gồm 2 số nguyên x, y ( -10^9 <= x,y <= 10^9) là toạ độ của các điểm trên mặt phẳng.
-
-Output:   Các điểm đã được sắp xếp , mỗi điểm được in trên một hàng.
-
+- Input: 
+    - Dòng đầu tiên chứa số nguyên N ( 1 <= N <= 10^6) là số lượng điểm trên mặt phẳng.
+    - N dòng tiếp theo gồm 2 số nguyên x, y ( -10^9 <= x,y <= 10^9) là toạ độ của các điểm trên mặt phẳng.
+- Output:   Các điểm đã được sắp xếp , mỗi điểm được in trên một hàng.
 Ví dụ:
 
-Input
-
-Output
-
-5
-
-1 2
-
-1 3
-
-2 4
-
-2 9
-
-4 1
-
-1 3
-
-1 2
-
-2 9
-
-2 4
-
-4 1
-
+| Input | Output |
+|-------|--------|
+| 5 </br> 1 2 </br> 1 3 </br> 2 4 </br> 2 9 </br> 4 1 | </br> 1 3 </br> 1 2 </br> 2 9 </br> 2 4 </br> 4 1|
