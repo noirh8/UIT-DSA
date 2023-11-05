@@ -1,9 +1,9 @@
 # Bài thực hành 1 :
 
 ## 1. Viết chương trình cài đặt giải thuật tìm kiếm tuyến tính (linear search):
-    - Không sử dụng thư viện STL
-    - Sử dụng thư viện STL
-    - Tham khảo : https://cplusplus.com/reference/algorithm/find/
+    1. Không sử dụng thư viện STL
+    1. Sử dụng thư viện STL
+    1. Tham khảo : https://cplusplus.com/reference/algorithm/find/
 ## 2. Viết chương trình cài đặt giải thuật tìm kiếm nhị phân (binary search) :
     - Không sử dụng thư viện STL
     - Sử dụng thư viện STL
@@ -14,21 +14,15 @@ Có Q truy vấn, mỗi truy vấn cho một số nguyên x. Bạn hãy trả l�
 Input:
  - Dòng đầu tiên là 2 số nguyên dương N, Q 
  - Dòng tiếp theo chứa N số nguyên a_{i} ( ) là các phần tử của mảng.
-- Q dòng tiếp theo, mỗi dòng chứa một số x là câu hỏi của truy vấn.
-Output:
-Gồm Q dòng, mỗi dòng gồm một câu trả lời. Nếu x trong dãy a thì in ra ‘YES'. Ngược lại, in ra ‘NO'.
+ - Q dòng tiếp theo, mỗi dòng chứa một số x là câu hỏi của truy vấn.
+Output: Gồm Q dòng, mỗi dòng gồm một câu trả lời. Nếu x trong dãy a thì in ra ‘YES'. Ngược lại, in ra ‘NO'.
 Ví dụ:
-Input                  Output
 
-7 5
-9 10 12 -1 0 1 7
-3                      NO
-2                      NO
-1                      YES
-9                      YES
-7                      YES
+| Input | Output |
+|-------|--------|
+| 7 5 </br> 9 10 12 -1 0 1 7 </br> 3 </br> 2 </br> 1 </br> 9 </br> 7 | </br></br> NO </br> NO </br> YES </br> YES </br> YES|
 
-4. Tập Điểm
+## 4. Tập Điểm
 
 Cho một tập N điểm (x,y) trên mặt phẳng Oxy. Bạn hãy sắp xếp và in ra các điểm tăng dần theo x, nếu x bằng nhau thì sắp xếp các điểm giảm dần theo y.
 
